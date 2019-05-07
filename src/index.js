@@ -21,14 +21,14 @@ class App extends Component {
     this.search('pixar');
   }
 
-    search = (text) => {
-      youtubeSearch(text).then((videos) => {
-        this.setState({
-          videos,
-          selectedVideo: videos[0],
-        });
+  search = (text) => {
+    youtubeSearch(text).then((videos) => {
+      this.setState({
+        videos: videos.all,
+        selectedVideo: videos.all[0],
       });
-    };
+    });
+  };
 
     render() {
       return (

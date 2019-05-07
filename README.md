@@ -76,7 +76,7 @@ What this means is that we are going to write the test for our code *before* we 
 to build a toy function that returns the total view count of all the videos displayed on the video list. First, think
 about exactly what we want this function's inputs and outputs to be, and then write the test in accordance to that; then, finally, you can write the function!
 
-We want to create a function viewCountByVideo that takes one input: the ID of a video, and outputs a number. 
+We want to create a function viewCountByVideo that takes one input: the ID of a video, and outputs a number.
 
 🚀 add this code below our previous test.
 ```javascript
@@ -88,7 +88,7 @@ We want to create a function viewCountByVideo that takes one input: the ID of a 
   });
 ```
 
-Your `src/test/Api.test.js` should now look like this: 
+Your `src/test/Api.test.js` should now look like this:
 
 ```javascript
 /* eslint-disable no-unused-vars */
@@ -277,7 +277,7 @@ import axios from 'axios';
 import { each } from 'async';
 
 const API_URL = 'https://www.googleapis.com/youtube/v3/search';
-const API_KEY = 'AIzaSyB3IiRyfDl2UxQzIAnFi7-MN0DAMw9yZMc';
+const API_KEY = 'AIzaSyAsznav_P3ug1QURsgP2WZCWQFUZKm5N9g';
 
 // eslint-disable-next-line no-unused-vars
 const STATISTICS_API_URL = 'https://www.googleapis.com/youtube/v3/videos';
